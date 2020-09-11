@@ -283,6 +283,7 @@ export interface ParsedOptions {
   defaultSeconds: number;
   disable: DateLimit<Date>[];
   disableMobile: boolean;
+  isMobile:boolean;
   enable: DateLimit<Date>[];
   enableSeconds: boolean;
   enableTime: boolean;
@@ -350,6 +351,7 @@ export const defaults: ParsedOptions = {
   defaultSeconds: 0,
   disable: [],
   disableMobile: false,
+  isMobile:false,
   enable: [],
   enableSeconds: false,
   enableTime: false,

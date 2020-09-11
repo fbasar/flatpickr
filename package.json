@@ -1,5 +1,5 @@
 {
-  "name": "flatpickr",
+  "name": "@fatihbasar/flatpickr",
   "version": "4.6.6",
   "description": "A lightweight, powerful javascript datetime picker",
   "scripts": {
@@ -81,5 +81,6 @@
     "ie >= 9",
     "last 2 versions",
     "safari >= 7"
-  ]
+  ],
+  "dependencies": {}
 }
